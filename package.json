@@ -1,0 +1,22 @@
+{
+  "name": "helerius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/Client.js",
+  "type": "module",
+  "bin": "src/Client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ZenobiaDevelopment",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "events": "^3.3.0",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.2.0",
+    "path": "^0.12.7"
+  }
+}
