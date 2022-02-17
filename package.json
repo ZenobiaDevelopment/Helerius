@@ -1,7 +1,7 @@
 {
   "name": "helerius",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.5.2",
+  "description": "Helerius a powerful NPM package that helps you interact with Viber API.",
   "main": "src/Client.js",
   "type": "module",
   "bin": "src/Client.js",
