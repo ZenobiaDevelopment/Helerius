@@ -79,13 +79,9 @@ Parameters:
 
 Example:
 `client.on('messageCreate', (message) => {
-
     if(message.content === 'help') {
-    
         client.sendMessage(config.name, 'This is help message.', message.author);
-        
     }
-    
 })`
 
 
