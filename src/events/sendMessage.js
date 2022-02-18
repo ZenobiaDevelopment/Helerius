@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import config from '../../config.json';
+import login from '../Client/data/login.json';
 export function sendMessage(name, message, receiver) {
     let ENDPOINT = 'https://chatapi.viber.com/pa/send_message';
 
@@ -18,7 +18,7 @@ export function sendMessage(name, message, receiver) {
     fetch(ENDPOINT, {
         method: 'POST',
         headers: {
-            'X-Viber-Auth-Token': config.token,
+            'X-Viber-Auth-Token': login.token,
         },
         body: JSON.stringify(data),
     })

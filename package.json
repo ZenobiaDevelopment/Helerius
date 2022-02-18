@@ -2,12 +2,9 @@
   "name": "helerius",
   "version": "1.5.2",
   "description": "Helerius a powerful NPM package that helps you interact with Viber API.",
-  "main": "src/Client.js",
+  "main": "src/Client/Client.js",
   "type": "module",
-  "bin": "src/Client.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "bin": "src/Client/Client.js",
   "keywords": [],
   "author": "ZenobiaDevelopment",
   "license": "MIT",
