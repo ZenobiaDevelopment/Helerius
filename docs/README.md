@@ -6,6 +6,7 @@
 To setup helerius for your project, you need to have module type in your package.json. After that, write this code in your main file.
 
 `import Viber from 'helerius'`
+
 `const client = new Viber();`
 
 # ready
