@@ -99,4 +99,35 @@ Parameters:
   - receiver: String
 
 Example:
-`client.sendMessage(config.name, 'Hello!', '<id of the receiver comes here>);'`
+`client.sendMessage(config.name, 'Hello!', '<id of the receiver comes here>');'`
+
+# setKeyboard
+
+setKeyboard is a function that helps you set a keyboard to a specific user.
+
+Type: 
+  - Function
+
+Parameters:
+  - message: String
+  - receiver: String
+  - button: JSON Data structure(type of array)
+
+
+
+Example:
+```let keyboard = [
+        {
+           "ActionType":"reply",
+           "ActionBody":"reply to me",
+           "Text":"Number 1",
+           "TextSize":"regular"
+        },
+        {
+            "ActionType":"reply",
+            "ActionBody":"reply to me",
+            "Text":"Number 2",
+            "TextSize":"regular"
+         }
+     ]
+     client.setKeyboard('Hello, tap the buttons below.', '<id of the receiver comes here>', keyboard);```

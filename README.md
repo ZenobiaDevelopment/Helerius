@@ -13,7 +13,7 @@ Helerius a powerful NPM package that helps you interact with Viber API.
 
 # LICENSE
 
-This brand new CLI is protected by MIT License.
+This brand new NPM package is protected by MIT License.
 
 # AUTHOR
 
@@ -30,4 +30,4 @@ The author of this project is Zenobia Development Owner(trojanz07).
 
 # VERSION
 
-`1.5.0`
+`1.5.6`

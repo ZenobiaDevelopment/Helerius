@@ -11,6 +11,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import {setWebhook} from '../events/setWebhook.js';
 import {sendMessage} from '../events/sendMessage.js';
+import {setKeyboard} from '../events/setKeyboard.js';
 
 const app = express();
 
@@ -43,6 +44,13 @@ class Viber extends EventEmitter {
         if(!string) return;
         if(!receiver) return;
         sendMessage(name, string, receiver);
+    }
+
+    setKeyboard(message, button, receiver) {
+        if(!message) return;
+        if(!button) return;
+        if(!receiver) return;
+        setKeyboard(message, button, receiver);
     }
 
     addWebhook(PORT) {
