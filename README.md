@@ -30,4 +30,4 @@ The author of this project is Zenobia Development Owner(trojanz07).
 
 # VERSION
 
-`1.5.6`
+`1.5.2`
