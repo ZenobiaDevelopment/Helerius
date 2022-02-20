@@ -130,4 +130,4 @@ Example:
             "TextSize":"regular"
          }
      ]
-     client.setKeyboard('Hello, tap the buttons below.', '<id of the receiver comes here>', keyboard);```
+     client.setKeyboard('Hello, tap the buttons below.', '<id of the receiver comes here>', keyboard);
