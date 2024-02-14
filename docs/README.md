@@ -116,7 +116,8 @@ Parameters:
 
 
 Example:
-```let keyboard = [
+```
+let keyboard = [
         {
            "ActionType":"reply",
            "ActionBody":"reply to me",
